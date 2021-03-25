@@ -18,7 +18,7 @@ class School
   
   def sort
     @roster.map do |k,v|
-      v.sort! {|a,b| a<=>b}
+      v.sort!
     end
     @roster
   end
